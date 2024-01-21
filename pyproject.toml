@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bitbot"
+version = "0.1.0"
+description = "A collection of webtools based on FastAPI"
+authors = ["Joe Drumgoole <joe@joedrumgoole.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+requests = "^2.31.0"
+python-multipart = "^0.0.6"
+aiofiles = "^23.2.1"
+httpx = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
